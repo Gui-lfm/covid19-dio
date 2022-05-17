@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>COVID-19 DIO</h1>
 
-## Available Scripts
+## 😷 Sobre o projeto: 
 
-In the project directory, you can run:
+<p align="justify">Projeto realizado durante o Bootcamp Carrefour Web Developer, sediado pela Digital Innovation One (DIO). Trata-se de uma aplicação que monitora os casos de covid ao redor do mundo, dando ao usuário informações como o total de casos, número de casos recuperados, óbitos, etc. Os dados apresentados pela aplicação são providos por uma API que retira as informações do site https://www.worldometers.info/, possibilitando uma atualização diária de cada país. Além disso, a aplicação permite que o usuário compartilhe as informações de determinado país via whatsapp, e-mail ou compartilhamento de link. A aplicação pode ser acessada pelo link: https://covid19-dio-roan.vercel.app/
+</p>
 
-### `yarn start`
+## 🛠 Tecnologias e libs utilizadas:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React js](https://pt-br.reactjs.org/)
+- [MUI](https://mui.com/pt/)
+- [country-flag-icons](https://www.npmjs.com/package/country-flag-icons)
+- [styled-components](https://styled-components.com/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🎨 Layout:
 
-### `yarn test`
+<img alt="" src="https://user-images.githubusercontent.com/72154970/168885240-1cb83274-b36a-448d-b72f-aab58b533110.jpg"/>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 👽 Como rodar a aplicação:
 
-### `yarn build`
+Antes de iniciar, você deve ter instalado em seu computador o [node.js](https://nodejs.org/en/) ou o [yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable). 
+É recomendado também ter um editor de código como o [VSCode](https://code.visualstudio.com/).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Após baixar a pasta do projeto, acesse-a pelo terminal/cmd e instale as dependências:
+### Usando node.js
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+$ npm install
 
-### `yarn eject`
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+### Usando Yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+$ yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Execute a aplicação em modo de desenvolvimento
+$ yarn dev
 
-## Learn More
+```
+A aplicação inciará na porta:3000 - acesse <http://localhost:3000>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👾Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ <a href="https://github.com/Gui-lfm">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/72154970?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Guilherme Lucena</b></sub></a>
+ 
+ ### ✉contato:
+<div>
+  <a href="mailto:guilherme.lucena17@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"/></a>
+  <a href="https://www.linkedin.com/in/guilherme-lucena-fm94/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/></a>
+</div>
